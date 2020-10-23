@@ -1,5 +1,6 @@
 # RacketPH
 
-# Stack: HTML, CSS, JavaScript
+## Front-end Tech Stack: HTML, CSS, JavaScript
 
-# Description: Racket PH is an online freelancing platform dedicated for our class ITENT 120: User Experience Design.
+Description: Racket PH is an online freelancing platform dedicated for our class ITENT 120: User Experience Design.
+
