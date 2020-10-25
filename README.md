@@ -1,10 +1,10 @@
 # RacketPH
 ## Prerequisites: Necessary Tools
-- Computer and OS: _MacOS_, Windows, Linux
-- Text Editor and IDE: _VSCode_, Sublime Text, Eclipse
-- Web Browser: _Chrome_, Firefox, Microsoft Edge
-- Terminal: _Bash_, Zsh, Powershell, Git Bash, iTerm, Hyper
-- Design (Optional): _Adobe XD_, Figma, Photoshop, Sketch
+- Computer and OS: **MacOS**, Windows, Linux
+- Text Editor and IDE: **VSCode**, Sublime Text, Eclipse
+- Web Browser: **Chrome**, Firefox, Microsoft Edge
+- Terminal: **Bash**, Zsh, Powershell, Git Bash, iTerm, Hyper
+- Design (Optional): **Figma**, Adobe XD, Photoshop, Sketch
 
 ### Front-end Tech Stack: HTML, CSS, JavaScript
 
