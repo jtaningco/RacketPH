@@ -11,10 +11,138 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Questrial&display=swap');
+   
+* {
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+}
+
+:root {
+
+  /* COLORS */
+  --primary-purple: #452470;
+  --primary-blue: #5484E5;
+  --secondary-blue: #66BBF0;
+  --tertiary-blue: #DBE6F5;
+  --primary-yellow: #FFCD05;
+  --secondary-yellow: #FCDC84;
+  --tertiary-yellow: #FFF5D1;
+  --white: #FCFCFC;
+  --gray: #888888;
+  --charcoal-gray: #636E81;
+  --light-gray: #F0F0F0;
+  --black: #333333;
+  --normal-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+  --hover-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.h1 {
+  font-family: "Questrial", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  letter-spacing: -5%;
+}
+
+.h2 {
+  font-family: "Questrial", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: -5%;
+}
+
+.h3 {
+  font-family: "Questrial", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: -5%;
+}
+
+.h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: -5%;
+}
+
+.h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+.p1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+.navbar {
+  width: 100vw;
+  height: 80px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  box-shadow: var(--normal-shadow);
+}
+
+.nav-logo {
+  display: flex;
+  flex-basis: 40%;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  padding-left: 96px;
+}
+
+.logo {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 120px;
+  height: 48px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-basis: 60%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-right: 80px;
+}
+
+.nav-items {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 40px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.nav-btn-1 {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  width: 144px;
+  height: 40px;
 }
 
 /*
