@@ -16,7 +16,6 @@
 * {
   box-sizing: border-box;
   margin: 0; padding: 0;
-  font-family: 'DM Sans', sans-serif;
 }
 
 :root {
@@ -35,7 +34,7 @@
   --light-gray: #F0F0F0;
   --black: #333333;
   --normal-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
-  --hover-shadow: 0px 5px 20px rgba(0, 0, 0, 0.12);
+  --hover-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 .h1 {
@@ -71,21 +70,14 @@
   font-size: 32px;
   font-style: italic;
   font-weight: 400;
-  letter-spacing: 1%;
+  letter-spacing: 0.01em;
 }
 
 .p1 {
   font-family: "DM Sans", sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
-  letter-spacing: 1%;
-}
-
-.p2 {
-  font-family: "DM Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0;
+  letter-spacing: 0.01em;
 }
 
 .navbar {
@@ -485,4 +477,197 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+}
+
+/* section 1 */
+
+.about {
+  height: 592px;
+  width: 1440px;
+  background-image: url('../../static/backgrounds/group202.jpg');
+  background-size: cover;
+}
+
+.flexcontainer {
+  display: flex;
+}
+
+.aboutflex1 {
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+
+.aboutimg {
+  position: relative;
+  width: 504px;
+  height: 352px;
+  left: 192px;
+  top: 119px;
+}
+
+.flexcontainer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.aboutflex2 {
+  position: relative;
+  width: 549px;
+  height: 335px;
+  left: 24px;
+  top: 119px;
+}
+
+.h1about {
+  font-family: "Questrial", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  letter-spacing: -5%;
+  color: var(--primary-blue);
+  height: 88px;
+
+}
+
+.h2about {
+  font-family: "Questrial", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: -5%;
+  color: var(--charcoal-gray);
+  height: 48px;
+}
+
+.p1about {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: var(--black);
+  height: 80px;
+}
+
+/* section 2 */
+
+.business {
+  height: 408px;
+  width: 1440px;
+}
+
+.flexcontainer3 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 816px;
+  height: 408px;
+  background-color: #452470;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.flexcontainter4 {
+  background-size: 100%;
+}
+
+.h5business {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.05em;
+  color: var(--white);
+  padding: 64px 40px;
+}
+
+.h5business2 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: -0.05em;
+  color: var(--white);
+  padding: 64px 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+  line-height: 32px;
+}
+
+.h5business1 {
+  position: relative;
+  width: 538px;
+  height: 0px;
+  left: 160px;
+  top: -240px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  color: var(--white);
+
+}
+
+/* section 3 */
+
+.how {
+  height: 520px;
+  width: 1440px;
+  background-image: url('../../static/backgrounds/group210.jpg');
+  background-size: cover;
+}
+
+.howflex1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  padding-top: 168px;
+}
+
+.h1how {
+  font-family: "Questrial", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  letter-spacing: -5%;
+  color: var(--primary-blue);
+  height: 88px;
+  align-items: center;
+}
+
+.h4how {
+  font-family: "DM Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: -5%;
+  color: var(--charcoal-gray);
+}
+
+.launchbutton {
+  position: relative;
+  top: 32px;
+  width: 200px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: var(--white);
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  color: var(--primary-purple);
+  border: 1px solid var(--primary-purple);
+  box-shadow: var(--normal-shadow);
+}
+
+.launchbutton:hover {
+  background-color: var(--primary-purple); /* Green */
+  color: var(--white);
+  box-shadow: var(--hover-shadow);
+  transition: 0.3s;
 }
