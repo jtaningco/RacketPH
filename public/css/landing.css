@@ -1,0 +1,77 @@
+/* HERO LANDING */
+
+.hero-landing {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 110vh;
+    width: 100vw;
+    background: url('../../static/backgrounds/landing-hero.png') no-repeat;
+    background-size: contain;
+    background-position: center top;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 640px;
+    margin: 0 160px;
+}
+
+.hero-header {
+    width: 560px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 80px;
+    letter-spacing: 5%;
+    color: var(--white);
+    margin: 16px 0;
+}
+
+.hero-body {
+    width: 90%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5%;
+    color: var(--white);
+    margin: 16px 0;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 40px 0;
+}
+
+.hero-btn {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    width: 180px;
+    height: 48px;
+    border-radius: 10px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background: var(--white);
+    box-shadow: var(--normal-shadow);
+    color: var(--primary-blue);
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-btn:hover {
+    box-shadow: var(--hover-shadow);
+}
