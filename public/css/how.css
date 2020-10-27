@@ -1,0 +1,87 @@
+.how {
+    background: url('../../static/backgrounds/how.png') no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 80px 0;
+}
+
+.how-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.how-header .h1 { padding: 80px 0 0 0; color: var(--primary-blue); }
+.how-header .h3 { padding: 80px 0 0 0; }
+
+.how-header .how-btns {
+    padding: 24px 0px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.how-header .how-btns .nav-btn-1, .how-header .how-btns .nav-btn-2 {
+    text-decoration: none;
+    margin: 0 -0.5px;
+    transition: all 0.3s ease-in-out;
+} 
+
+.how-header .how-btns .nav-btn-1 { 
+    border-radius: 10px 0 0 10px; 
+    background: var(--white);
+    border: 2px solid var(--primary-purple); 
+    color: var(--primary-purple);  
+    font-weight: 700; 
+}
+
+.how-header .how-btns .nav-btn-2 { 
+    border-radius: 0 10px 10px 0;
+    border: 2px solid var(--primary-purple); 
+    color: var(--primary-purple); 
+    font-weight: 500; 
+}
+
+.how-header .how-btns .nav-btn-1:hover,
+.how-header .how-btns .nav-btn-2:hover {
+    background: var(--primary-purple);
+    color: var(--white);
+}
+
+.how-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.how-wrapper {
+    height: 60vh;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.how-content { flex-basis: 55%; }
+.how-content .h4 { font-style: italic; color: var(--charcoal-gray); padding: 8px 0; }
+
+.how-image { 
+    flex-basis: 45%;
+    display: flex;
+    align-items: center;
+    align-content: center; 
+}
+
+.how-l { justify-content: flex-start; text-align: left; }
+.how-r { justify-content: flex-end; text-align: right; }
