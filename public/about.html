@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+  <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/about.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <title>Racket PH</title>
@@ -11,124 +12,122 @@
 
   <!-- NAVBAR -->
   <nav class="navbar">
-    <div class="nav-logo"><a href="#" class="nav-link"><img src="../static/logos/Main_Purple.png" alt="Racket PH Logo" class="logo"></a></div>
+    <div class="nav-logo"><a href="./landing.html" class="nav-link"><img src="../static/logos/Main_Purple.png" alt="Racket PH Logo" class="logo"></a></div>
     <div class="nav-menu">
       <ul class="nav-items">
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">How It Works</a></li>
-        <li class="nav-btn-1"><a href="#" class="btn-1-link">Join Now</a></li>
-        <li class="nav-btn-2"><a href="#" class="btn-2-link">See Prototype</a></li>
+        <li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="./how.html" class="nav-link">How It Works</a></li>
+        <li class="nav-btn-1"><a href="./join.html" class="btn-1-link">Join Now</a></li>
+        <li class="nav-btn-2"><a href="./prototype.html" class="btn-2-link">See Prototype</a></li>
       </ul>
     </div>
   </nav>
 
   <!-- ABOUT US SECTION -->
   <section class="about">
-    <div class="flexcontainer">
-      <div class="aboutflex1">
-        <img src="../static/pics/group.png" alt="group" class="aboutimg">
+    <div class="about-container">
+      <div class="about-wrapper-l">
+        <img src="../static/pics/group.png" alt="group">
       </div>
 
-      <div class="aboutflex1">
-        <div class="flexcontainer2">
-          <div class="aboutflex2">
-            <h1 class="h1about">About Racket</h1>
-            <h2 class="h2about">Our Story</h2>
-            <p class="p1about">Racket was conceptualized by 4 young college students who were stuck at home in the middle of a global pandemic. They noticed that employees were being laid off in the hundreds, and freelancers were losing projects quick. With this, the team set out to create a job platform addressing both issues: the sudden influx of unemployed professionals and the lack of exposure for freelancers. Thus, Racket was born.</p>
-          </div>
+      <div class="about-wrapper-r">
+        <div class="about-content">
+          <h1 class="h1">About Racket</h1>
+          <h2 class="h5">Our Story</h2>
+          <p class="p1">Racket was conceptualized by 4 young college students who were stuck at home in the middle of a global pandemic. They noticed that employees were being laid off in the hundreds, and freelancers were losing projects quick. With this, the team set out to create a job platform addressing both issues: the sudden influx of unemployed professionals and the lack of exposure for freelancers. Thus, Racket was born.</p>
         </div>
       </div>
-
   </section>
 
-  <!-- BUSINESS SECTION -->
 
+  <!-- BUSINESS SECTION -->
   <section class="business">
-    <div class="flexcontainer">
-      <div class="flexcontainer2">
-        <div class="flexcontainer3">
-          <h4 class="h5business">VISION</h4>
-          <h4 class="h5business2">MISSION</h4>
-          <h4 class="h5business">CORE VALUES</h4>
-          </div>
-          <h5 class= "h5business1">To improve people’s lives by providing financially-rewarding opportunities.</h5>
+    <div class="business-container">
+      <div class="business-wrapper">
+        <div class="business-headers">
+          <h2 class="business-header">Vision</h2>
+          <h2 class="business-header">Mission</h2>
+          <h2 class="business-header">Core Values</h2>
         </div>
-        <div class="flexcontainter4">
+        <p class= "business-body">To improve people’s lives by providing financially-rewarding opportunities.</h5>
+      </div>
+      <div class="business-image">
           <img src="../static/pics/businesspic.jpg" alt="businesspic">
         </div>
       </div>
     </section>
 
-  <!-- HOW IT WORKS SECTION -->
 
+  <!-- HOW IT WORKS SECTION -->
   <section class="how">
-    <div class="flexcontainer2">
-      <div class="howflex1">
-        <h1 class="h1how">Ready, Set, Engage.</h1>
-        <h4 class="h4how">Find out how Racket works.</h4>
-        <button type="button" class="launchbutton launchbutton">Launch</button>
+    <div class="how-container">
+      <div class="how-wrapper">
+        <h1 class="h1" style="color: var(--primary-blue); ">Ready, Set, Engage.</h1>
+        <h2 class="h5">Find out how Racket works.</h2>
+        <a href="./how.html" class="how-btn">Launch</a>
       </div>
     </div>
   </section>
 
-<!-- MEET THE TEAM SECTION -->
 
+<!-- MEET THE TEAM SECTION -->
   <section class="meet">
-    <div class="flexcontainer2">
-      <h2 class="h2meet">Meet the Team</h2>
-      <div class="flexcontainer5">
-          <div class="columncard">
-            <div class="card">
+    <div class="meet-container">
+      <h2 class="h2">Meet the Team</h2>
+      <div class="meet-wrapper">
+          <div class="meet-cards">
+
+            <div class="meet-card">
               <img src="../static/pics/josh.png" alt="Josh" class="card">
               <p class="position">Product Manager</p>
               <p class="name">Joshua Taningco</p>
               <p class="description">A full-stack web engineer driven by his passion for business intelligence, emerging technologies, and creating shared value. He aims to bridge the digital divide in the Philippines through social entrepreneurship and technological innovations.</p>
               <div class="links">
-                <a href="#"><img src="../static/logos/fb.png" alt=""></a>
-                <a href="#"><img src="../static/logos/ig.png" alt=""></a>
-                <a href="#"><img src="../static/logos/linkedin.png" alt=""></a>
+                <a href="https://www.facebook.com/tnngc/" target="_blank"><img src="../static/logos/fb.png" alt=""></a>
+                <a href="https://www.instagram.com/jtnngc/" target="_blank"><img src="../static/logos/ig.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/joshtaningco/" target="_blank"><img src="../static/logos/linkedin.png" alt=""></a>
               </div>
             </div>
-            <div class="card">
+
+            <div class="meet-card">
               <img src="../static/pics/marvin.png" alt="Marvin" class="card">
               <p class="position">UX Designer</p>
               <p class="name">Marvin Te</p>
               <p class="description">A businessman by day, a designer by night. In the morning, he hustles to seal more deals to bring in the cash. He dedicates himself to provide more business opportunities. By night, he unleashes the design beast within and practices his passion.</p>
               <div class="links">
-                <a href="#"><img src="../static/logos/fb.png" alt=""></a>
-                <a href="#"><img src="../static/logos/ig.png" alt=""></a>
-                <a href="#"><img src="../static/logos/linkedin.png" alt=""></a>
+                <a href="https://www.facebook.com/marbean01.te" target="_blank"><img src="../static/logos/fb.png" alt=""></a>
+                <a href="https://www.instagram.com/marbean.te/" target="_blank"><img src="../static/logos/ig.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/marvin-te-4870731aa/" target="_blank"><img src="../static/logos/linkedin.png" alt=""></a>
               </div>
             </div>
-            <div class="card">
+
+            <div class="meet-card">
               <img src="../static/pics/arvin.png" alt="Arvin"  class="card">
               <p class="position">UI Designer</p>
               <p class="name">Arvin Santos</p>
               <p class="description">A marketing strategist exploring the field of execution. He advocates for purpose driven impact and human centered design as he is discovering the parallels between marketing and UX, with the user being at the heart of everything.</p>
               <div class="links">
-                <a href="#"><img src="../static/logos/fb.png" alt=""></a>
-                <a href="#"><img src="../static/logos/ig.png" alt=""></a>
-                <a href="#"><img src="../static/logos/linkedin.png" alt=""></a>
+                <a href="https://www.facebook.com/arvinmartinsantos" target="_blank"><img src="../static/logos/fb.png" alt=""></a>
+                <a href="https://www.instagram.com/arvinnsantos/" target="_blank"><img src="../static/logos/ig.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/arvinmartinsantos/" target="_blank"><img src="../static/logos/linkedin.png" alt=""></a>
               </div>
             </div>
-            <div class="card">
+
+            <div class="meet-card">
               <img src="../static/pics/tyler.png" alt="Tyler" class="card">
               <p class="position">UX Writer</p>
               <p class="name">Benedict O'yek</p>
               <p class="description">A public relations strategist by heart, he is a risk-taking entrepreneur. He is dedicated to leave an impact in the business world by promoting a circular economy through innovations to create a more sustainable society.</p>
               <div class="links">
-                <a href="#"><img src="../static/logos/fb.png" alt=""></a>
-                <a href="#"><img src="../static/logos/ig.png" alt=""></a>
-                <a href="#"><img src="../static/logos/linkedin.png" alt=""></a>
+                <a href="https://www.facebook.com/tyleroyek" target="_blank"><img src="../static/logos/fb.png" alt=""></a>
+                <a href="https://www.instagram.com/oyektyler/" target="_blank"><img src="../static/logos/ig.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/tyleroyek/" target="_blank"><img src="../static/logos/linkedin.png" alt=""></a>
               </div>
             </div>
 
-
           </div>
         </div>
-
     </div>
-
   </section>
 
 
@@ -136,25 +135,25 @@
 
 
   <!-- FOOTER -->
-  <section class="footer">
+  <footer class="footer">
     <div class="footer-content">
       <div class="footer-line"></div>
-      <div class="footer-logo"><img src="../static/logos/Main_Purple.png" alt="Racket PH Logo" class="logo"></div>
-
+      <div class="footer-logo"><a href="./landing.html"><img src="../static/logos/Main_Purple.png" alt="Racket PH Logo" class="logo"></a></div>
+      
       <div class="footer-links">
         <ul class="footer-items">
-          <li class="footer-item"><a href="" class="footer-link">About</a></li>
-          <li class="footer-item"><a href="" class="footer-link">How It Works</a></li>
-          <li class="footer-item"><a href="" class="footer-link">Join Now</a></li>
-          <li class="footer-item"><a href="" class="footer-link">See Prototype</a></li>
+          <li class="footer-item"><a href="./about.html" class="footer-link">About</a></li>
+          <li class="footer-item"><a href="./how.html" class="footer-link">How It Works</a></li>
+          <li class="footer-item"><a href="./join.html" class="footer-link">Join Now</a></li>
+          <li class="footer-item"><a href="./prototype.html" class="footer-link">See Prototype</a></li>
         </ul>
       </div>
 
       <div class="footer-icons">
         <ul class="footer-items">
-          <li class="footer-icon"><a href="https://facebook.com/wherediscoveryawaits"><img src="../static/logos/fb.png" alt="Facebook"></a></li>
-          <li class="footer-icon"><a href="https://instagram.com/racketph"><img src="../static/logos/ig.png" alt="Instagram"></a></li>
-          <li class="footer-icon"><a href="https://www.linkedin.com/company/racketph/"><img src="../static/logos/linkedin.png" alt="LinkedIn"></a></li>
+          <li class="footer-icon"><a href="https://facebook.com/wherediscoveryawaits" target="_blank"><img src="../static/logos/fb.png" alt="Facebook"></a></li>
+          <li class="footer-icon"><a href="https://instagram.com/racketph" target="_blank"><img src="../static/logos/ig.png" alt="Instagram"></a></li>
+          <li class="footer-icon"><a href="https://www.linkedin.com/company/racketph/" target="_blank"><img src="../static/logos/linkedin.png" alt="LinkedIn"></a></li>
         </ul>
       </div>
 
@@ -167,7 +166,7 @@
       </div>
 
     </div>
-  </section>
+  </footer>
 
 </body>
 </html>
