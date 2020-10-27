@@ -127,22 +127,112 @@
 
 .nav-item {
   margin: 0 40px;
-  font-family: "DM Sans", sans-serif;
-  font-size: 16px;
-  letter-spacing: 1%;
 }
 
-.nav-link {
-  text-decoration: none;
-  color: var(--black);
-}
-
-.nav-btn-1 {
+.nav-btn-1, .nav-btn-2 {
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
   width: 144px;
   height: 40px;
+  border-radius: 10px;
+  margin: 0 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.nav-btn-1 { background: var(--primary-blue); }
+.nav-btn-2 { border: 1px solid var(--primary-blue); }
+
+.nav-link, .btn-1-link, .btn-2-link {
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1%;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover { color: var(--primary-purple); }
+
+.nav-link { color: var(--black); }
+.btn-1-link { color: var(--white); }
+.btn-2-link { color: var(--primary-blue); }
+
+.footer {
+  width: 100vw;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  box-shadow: var(--normal-shadow);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.footer-line {
+  display: block;
+  border: 1px solid var(--light-gray);
+  width: 1080px;
+  margin: 32px;
+}
+
+.footer-logo img {
+  width: 120px;
+  height: 48px;
+  margin: 32px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.footer-items, .footer-icons, .footer-texts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  list-style: none;
+  margin: 8px 0;
+}
+
+.footer-item { margin: 0 40px; }
+
+.footer-text { 
+  margin: 0 40px; 
+  color: var(--gray); 
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 1%;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1%;
+  color: var(--black);
+}
+
+.footer-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 16px;
 }
 
 /*
