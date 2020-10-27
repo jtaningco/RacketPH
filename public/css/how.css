@@ -29,6 +29,7 @@
 
 .how-header .how-btns .nav-btn-1, .how-header .how-btns .nav-btn-2 {
     text-decoration: none;
+    font-weight: 500;
     margin: 0 -0.5px;
     transition: all 0.3s ease-in-out;
 } 
@@ -37,21 +38,20 @@
     border-radius: 10px 0 0 10px; 
     background: var(--white);
     border: 2px solid var(--primary-purple); 
-    color: var(--primary-purple);  
-    font-weight: 700; 
+    color: var(--primary-purple);
 }
 
 .how-header .how-btns .nav-btn-2 { 
     border-radius: 0 10px 10px 0;
     border: 2px solid var(--primary-purple); 
-    color: var(--primary-purple); 
-    font-weight: 500; 
+    color: var(--primary-purple);
 }
 
 .how-header .how-btns .nav-btn-1:hover,
 .how-header .how-btns .nav-btn-2:hover {
     background: var(--primary-purple);
     color: var(--white);
+    font-weight: 700;
 }
 
 .how-container {
