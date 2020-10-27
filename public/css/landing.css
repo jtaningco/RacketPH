@@ -5,10 +5,10 @@
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    height: 110vh;
+    height: 100vh;
     width: 100vw;
     background: url('../../static/backgrounds/landing-hero.png') no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center top;
 }
 
@@ -74,4 +74,206 @@
 
 .hero-btn:hover {
     box-shadow: var(--hover-shadow);
+}
+
+/* USP LANDING */
+
+.usp-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 80vh;
+    width: 100vw;
+    box-shadow: var(--normal-shadow);
+}
+
+.usp-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.usp-line {
+    display: block;
+    height: 5px;
+    width: 50px;
+    margin: 12px;
+    background: var(--primary-blue);
+}
+
+.usp-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    width: 960px;
+}
+
+.usp-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 256px;
+    height: 100%;
+    margin: 24px;
+}
+
+.usp-img {
+    width: 120px;
+    height: 120px;
+    margin: 16px 0;
+}
+
+.usp-header {
+    font-size: 24px;
+    margin: 8px 0;
+}
+
+.usp-text {
+    text-align: center;
+    font-size: 16px;
+    color: var(--charcoal-gray);
+}
+
+/* LANDING BODY */
+.landing-body {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: url('../../static/backgrounds/landing-body.png') no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.landing-top {
+    width: 80%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.landing-top h1 { margin-left: 24px; }
+
+.top-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.top-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.industry-card {
+    width: 100%;
+    height: 184px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    margin: 24px;
+    color: var(--white);
+    box-shadow: var(--normal-shadow);
+}
+
+.offers-card, .freelancers-card {
+    height: 400px;
+    width: 280px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: var(--white);
+    box-shadow: var(--normal-shadow);
+    margin: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.offers-card:hover, .freelancers-card:hover { box-shadow: var(--hover-shadow); }
+
+.offers-img {
+    width: 100%;
+    flex-basis: 67.5%;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+    padding: 24px;
+}
+
+.freelancers-img {
+    width: 100%;
+    flex-basis: 67.5%;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: center;
+    padding: 20px;
+}
+
+.offers-industry {
+    width: 120px;
+    height: 24px;
+    font-size: 12px;
+    color: var(--black);
+    background: var(--primary-yellow);
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.offers-content, .freelancers-content {
+    width: 100%;
+    flex-basis: 32.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.offers-content h1, .freelancers-content h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1%;
+    color: var(--primary-blue);
+    margin: 0 0 8px 0;
+}
+
+.offers-content p, .freelancers-content p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--charcoal-gray);
 }
