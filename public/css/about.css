@@ -675,7 +675,7 @@ textarea {
 /* section 4 */
 
 .meet {
-  height: 656px;
+  height: 680px;
   width: 100%;
   background-image: url('../../static/backgrounds/group211.jpg');
   background-size: cover;
@@ -688,6 +688,7 @@ textarea {
     justify-content: center;
     align-items: center;
     align-content: center;
+
 }
 
 .h2meet {
