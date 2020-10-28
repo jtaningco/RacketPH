@@ -1,5 +1,5 @@
 .proto {
-    background: url('../../static/backgrounds/join.png') no-repeat center;
+    background: url('../static/backgrounds/join.png') no-repeat center;
     background-size: cover;
     width: 100vw;
     height: 120vh;

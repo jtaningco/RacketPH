@@ -7,7 +7,7 @@
     align-content: center;
     height: 100vh;
     width: 100vw;
-    background: url('../../static/backgrounds/landing-hero.png') no-repeat;
+    background: url('../static/backgrounds/landing-hero.png') no-repeat;
     background-size: cover;
     background-position: center top;
 }
@@ -151,7 +151,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    background: url('../../static/backgrounds/landing-body.png') no-repeat;
+    background: url('../static/backgrounds/landing-body.png') no-repeat;
     background-size: cover;
     padding: 80px 0;
 }

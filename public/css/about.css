@@ -3,7 +3,7 @@
 .about {
   height: 100vh;
   width: 100vw;
-  background-image: url('../../static/backgrounds/group202.jpg');
+  background-image: url('../static/backgrounds/group202.jpg');
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -148,7 +148,7 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  background-image: url('../../static/backgrounds/group210.jpg');
+  background-image: url('../static/backgrounds/group210.jpg');
   background-size: cover;
   box-shadow: var(--normal-shadow);
 }
@@ -206,7 +206,7 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  background-image: url('../../static/backgrounds/group211.jpg');
+  background-image: url('../static/backgrounds/group211.jpg');
   background-size: cover;
 }
 

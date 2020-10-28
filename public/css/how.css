@@ -1,5 +1,5 @@
 .how {
-    background: url('../../static/backgrounds/how.png') no-repeat center;
+    background: url('../static/backgrounds/how.png') no-repeat center;
     background-size: cover;
     display: flex;
     flex-direction: column;
